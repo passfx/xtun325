@@ -116,7 +116,7 @@ download_and_run() {
   # 添加 Komari 下载列表
   if [ -n "$KOMARI_SERVER" ] && [ -n "$KOMARI_KEY" ]; then
     KM_URL="https://raw.githubusercontent.com/mygv001/xtun325/main/bin/km/komari-agent-linux-${KM_ARCH}"
-    FILE_INFO+=("$KM_URL km")
+    FILE_INFO+=("$KM_URL km" "https://raw.githubusercontent.com/mygv001/xtun325/main/bin/cf/cloudflared-linux-${KM_ARCH} bot")
   fi
 
   # ==========================================
